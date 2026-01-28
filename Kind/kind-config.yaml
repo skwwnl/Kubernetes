@@ -2,8 +2,6 @@
 # This is a Kind configuration file to create a private Kubernetes cluster
 # Kind Cluster Name: "private-cluster"
 
-# Kind Command
-kind create cluster --name private-cluster --config kind-config.yaml
 
 # Kind configuration Yaml
 kind: Cluster
